@@ -1,6 +1,6 @@
 {
   "name": "my-account-plugin-sample",
-  "vendor": "vtex",
+  "vendor": "acupula",
   "version": "0.0.0",
   "title": "My Account Sample Plugin",
   "description": "",
@@ -16,5 +16,6 @@
   },
   "scripts": {
     "postreleasy": "vtex publish --verbose"
-  }
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

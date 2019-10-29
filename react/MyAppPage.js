@@ -1,11 +1,10 @@
 import React, { Fragment } from 'react'
 import { Route } from 'react-router-dom'
-// Your component pages
-import UserSupport from './components/UserSupport'
+import BlueCoinsContainer from './components/BlueCoinsContainer'
 
 const MyAppPage = () => (
   <Fragment>
-    <Route exact path="/support" component={UserSupport} />
+    <Route exact path="/blue-coins" component={BlueCoinsContainer} />
   </Fragment>
 )
 
