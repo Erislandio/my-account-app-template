@@ -1,0 +1,20 @@
+{
+	profile {
+		cacheId
+		firstName
+		lastName
+		userId
+		birthDate
+		gender
+		homePhone
+		businessPhone
+		document
+		email
+		tradeName
+		corporateName
+		corporateDocument
+		stateRegistration
+		isCorporate
+		passwordLastUpdate
+	}
+}
