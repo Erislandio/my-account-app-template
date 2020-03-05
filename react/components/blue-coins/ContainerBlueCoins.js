@@ -1,11 +1,23 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { PageHeader } from 'vtex.styleguide';
 import { FormattedMessage } from 'react-intl';
+import { Link } from 'react-router-dom';
+import { LogoTitle } from '../LogoTitle';
+import { ProfileContext } from './Index';
+import { TableOrders } from './tableOrders';
 
-export const ContainerBlueCoins = ({ profile }) => {
-	const title = <h2>Blue coins</h2>;
+export const ContainerBlueCoins = () => {
+	const { firstName } = useContext(ProfileContext);
 
-	const linkLabel = <FormattedMessage id="store/blue-coins.back-button" />;
+	const linkLabel = (
+		<Link to="/">
+			<FormattedMessage id="store/blue-coins.back-button" />
+		</Link>
+	);
 
-	return <PageHeader title={title} linkLabel={linkLabel} />;
+	return (
+		<PageHeader title={<LogoTitle />} linkLabel={linkLabel}>
+			<TableOrders />
+		</PageHeader>
+	);
 };

@@ -1,3 +1,7 @@
 {
-  "store/blue-coins.link": "Blue coins"
+  "store/blue-coins.link": "Blue coins",
+  "store/blue-coins.data-title-error": "Ops!",
+  "store/blue-coins.data-description-error": "Error",
+  "store/blue-coins.back-button": "Voltar",
+  "store/blue-coins.page-title": "Extrato"
 }

@@ -1,3 +1,7 @@
 {
-    "store/blue-coins.link": "Blue coins"
+    "store/blue-coins.link": "Blue coins",
+    "store/blue-coins.data-title-error": "It seems that it was not possible to bring your data!",
+    "store/blue-coins.data-description-error": "We had a problem trying to query the data, please try again",
+    "store/blue-coins.back-button": "Back",
+    "store/blue-coins.page-title": "Extracto"
 }

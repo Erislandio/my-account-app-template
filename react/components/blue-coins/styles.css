@@ -3,3 +3,175 @@
 .containerError :global(.vtex-pageHeader__title) {
     margin: 0px;
 }
+
+:global(#blue-coins) a {
+    font-size: 0px;
+    padding: 10px 0px 10px 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+:global(#blue-coins) a::after {
+    content: '';
+    display: block;
+    background-image: url(/arquivos/sp-gnb-mo.png);
+    background-repeat: no-repeat;
+    width: 7px;
+    height: 11px;
+    background-position: -50px -63px;
+    background-size: 130px auto;
+}
+
+:global(#blue-coins) a::before {
+    content: '';
+    background-image: url('https://lh3.googleusercontent.com/proxy/K8j4QkwxXxQyvuYQijbyMSrScdfVzaZPEXLJhp90h1waPBuW8MHR61RVSyUZReq7kJeXiZ7aEmC8rz-gGyU5LPCc9SNIxgdmzjQmKzTwupPyt1Yswyysdzg2ttMNRTA');
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100px;
+    width: 100%;
+    height: 20px;
+    display: block;
+}
+
+:global(.logo-container) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+:global(.logo-container) img {
+    max-width: 200px;
+}
+
+.container :global(.vtex-pageHeader__children) {
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.container :global(.table-item) {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 35px;
+    border: 1px solid #dedede;
+    border-collapse: collapse;
+    align-items: center;
+}
+
+.container :global(.table-item) label {
+    font-size: 15px;
+}
+
+.container :global(.table-item) p {
+    margin: 5px 0px 0px 0px;
+    font-weight: bold;
+}
+
+.container :global(.table-container .table-item) {
+    border-bottom: 0px;
+}
+
+.container :global(.table-container>div):last-of-type {
+    border-bottom: 1px solid #dedede;
+}
+
+.container :global(.button-container) {
+    text-align: right;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+}
+
+.container :global(span.order-value) {
+    min-width: 50px;
+}
+
+.container :global(.button-container) button {
+    background: #1346d8;
+    min-height: 43px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 23px;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    -ms-border-radius: 23px;
+    -o-border-radius: 23px;
+}
+
+.container :global(span.total-value) {
+    width: 100%;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0px;
+    align-items: center;
+}
+
+.container :global(span.total-value) span {
+    display: flex;
+    align-items: center;
+}
+
+.container :global(span.total-value) span img {
+    margin-left: 10px;
+}
+
+.container :global(span.total-value) h3 {
+    min-width: 100px;
+    font-size: 40px;
+    color: #1346d8;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.container :global(span.order-value) {
+    display: flex;
+    align-items: flex-end;
+    min-width: 125px;
+    justify-content: flex-end;
+}
+
+.container :global(span.order-value) img {
+    margin-left: 15px;
+}
+
+.container :global(span.order-value) p {
+    font-size: 30px;
+    color: #1346d8;
+}
+
+.container :global(span.total-value) h4 {
+    margin-right: 30px;
+    margin-top: 35px;
+}
+
+.container :global(p.Débito) {
+    color: #e74c3c;
+}
+
+.container :global(p.Crédito) {
+    color: #27ae60;
+}
+
+.container :global(span.order-value p.Débito) {
+    color: darkgray !important;
+}
+
+@media screen and (max-width: 767px) {
+    .container :global(.table-item) {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .container :global(.table-item) span {
+        margin-top: 10px;
+    }
+    .container :global(.button-container) {
+        text-align: center;
+    }
+    .container :global(span.total-value) {
+        justify-content: center;
+        text-align: center;
+    }
+}
