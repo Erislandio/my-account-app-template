@@ -1,0 +1,5 @@
+.container {}
+
+.containerError :global(.vtex-pageHeader__title) {
+    margin: 0px;
+}

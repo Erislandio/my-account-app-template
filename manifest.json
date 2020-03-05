@@ -1,13 +1,14 @@
 {
-  "name": "my-account-plugin-sample",
+  "name": "my-account-samsung",
   "vendor": "acupula",
-  "version": "0.0.0",
-  "title": "My Account Sample Plugin",
+  "version": "0.0.1",
+  "title": "My Account Samsung customization",
   "description": "",
   "mustUpdateAt": "2019-07-09",
   "dependencies": {
     "vtex.my-account": "1.x",
-    "vtex.styleguide": "9.x"
+    "vtex.styleguide": "9.x",
+    "vtex.store-graphql": "2.x"
   },
   "builders": {
     "react": "3.x",
