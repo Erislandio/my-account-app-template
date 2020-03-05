@@ -2,7 +2,6 @@ import React from 'react';
 import { PageHeader } from 'vtex.styleguide';
 import { FormattedMessage } from 'react-intl';
 import styles from './styles.css';
-import Link from 'vtex.my-account-commons/Router';
 
 export const ContainerError = () => {
 	const titleError = (
@@ -17,11 +16,7 @@ export const ContainerError = () => {
 		</div>
 	);
 
-	const linkLabel = (
-		<Link to="/account#/profile">
-			<FormattedMessage id="store/blue-coins.back-button" />
-		</Link>
-	);
+	const linkLabel = <FormattedMessage id="store/blue-coins.back-button" />;
 
 	return (
 		<main className={styles.containerError}>
