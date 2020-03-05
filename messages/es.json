@@ -1,3 +1,6 @@
 {
-    "store/blue-coins.link": "Blue coins"
+    "store/blue-coins.link": "Blue coins",
+    "store/blue-coins.data-title-error": "¡Parece que no fue posible traer sus datos!",
+    "store/blue-coins.data-description-error": "Se ha producido un problema al intentar consultar los datos. Vuelve a intentarlo.",
+    "store/blue-coins.back-button": "Volver"
 }

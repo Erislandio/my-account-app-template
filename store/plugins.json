@@ -1,4 +1,4 @@
 {
-  "my-account-pages > my-account-page": "my-account-page.test-page",
-  "my-account-menu > my-account-link": "my-account-link.test-link"
+  "my-account-pages > my-account-page": "my-account-page.blue-coins",
+  "my-account-menu > my-account-link": "my-account-link.index-link"
 }
